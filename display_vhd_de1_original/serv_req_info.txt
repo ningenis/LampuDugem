@@ -1,0 +1,168 @@
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x093add57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x093ad4f2: atm_amerge + 0x3d4f2 (amerge_mini_merge + 0x3a112)
+	0x093b44dd: atm_amerge + 0x444dd (amerge_mini_merge + 0x410fd)
+	0x0937321d: atm_amerge + 0x321d
+	0x093733f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917de8: ntdll + 0x17de8 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Jan 01 02:37:09 2002</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0943dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x0943d4f2: atm_amerge + 0x3d4f2 (amerge_mini_merge + 0x3a112)
+	0x094444dd: atm_amerge + 0x444dd (amerge_mini_merge + 0x410fd)
+	0x0940321d: atm_amerge + 0x321d
+	0x094033f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917de8: ntdll + 0x17de8 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Jan 01 02:37:28 2002</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0943dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	0x00a330d5: ccl_cfg_ini + 0x30d5 (?cfg_force_qexe_mode_off@@YIXXZ + 0x1e15)
+	0x0943d4f2: atm_amerge + 0x3d4f2 (amerge_mini_merge + 0x3a112)
+	0x094444dd: atm_amerge + 0x444dd (amerge_mini_merge + 0x410fd)
+	0x0940321d: atm_amerge + 0x321d
+	0x094033f1: atm_amerge + 0x33f1 (amerge_mini_merge + 0x11)
+	0x7c917de8: ntdll + 0x17de8 (RtlCompareUnicodeString + 0x460)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Jan 08 02:03:06 2002</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>ATCL</sub_system>
+	<file>/quartus/ccl/atcl/atcl_tcl.cpp</file>
+	<line>183</line>
+	<callstack>
+	0x008c2225: CCL_ERR + 0x2225 (?err_report_internal_error@@YIXPBD00H@Z + 0x15)
+	</callstack>
+	<error>interp != NULL &amp;&amp; package &amp;&amp; *package</error>
+	<date>Tue Nov 27 08:07:05 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>interp != NULL &amp;&amp; package &amp;&amp; *package
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0974dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:08:11 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0978dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:08:56 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0978dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:10:11 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0978dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:11:18 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0978dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:15:11 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+
+<internal_error>
+	<executable>quartus_map.exe</executable>
+	<sub_system>AMERGE</sub_system>
+	<file>/quartus/atm/amerge/amerge_kpt_op.cpp</file>
+	<line>220</line>
+	<callstack>
+	0x0974dd57: atm_amerge + 0x3dd57 (amerge_mini_merge + 0x3a977)
+	</callstack>
+	<error>cmp_merge_kpt_db</error>
+	<date>Tue Nov 27 08:15:41 2012</date>
+	<version>Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition</version>
+	<full_error>cmp_merge_kpt_db
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition </full_error>
+</internal_error>
+

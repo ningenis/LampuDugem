@@ -1,0 +1,97 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+
+entity Lampu is port (
+	clk,rst		: in std_logic;
+	malam, Dar	: in std_logic;
+	MUS, KUS, HUS : out std_logic;
+	MBT, KBT, HBT : out std_logic);
+end Lampu;
+
+architecture behavioral of Lampu is 
+type state is (s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,h0,h1);
+signal curstate, nextstate : state;
+signal realclock : std_logic;
+
+component clockdiv port (
+	clk,half: in std_logic;
+	divout: out std_logic);
+end component;
+
+begin
+	T : clockdiv port map (clk,malam,realclock);
+----------------------------	
+	process (curstate,malam)
+	begin
+		case curstate is
+			when s0 => 
+				if (Dar='0') then nextstate <= s1;
+				else nextstate <=h0;
+				end if;
+			when s1 => 
+				if (Dar='0') then nextstate <= s2;
+				else nextstate <=h0;
+				end if;
+			when s2 =>  
+				if (Dar='0') then nextstate <= s3;
+				else nextstate <=h0;
+				end if;
+			when s3 =>  
+				if (Dar='0') then nextstate <= s4;
+				else nextstate <=h0;
+				end if;
+			when s4 =>  
+				if (Dar='0') then nextstate <= s5;
+				else nextstate <=h0;
+				end if;
+			when s5 =>  
+				if (Dar='0') then nextstate <= s6;
+				else nextstate <=h0;
+				end if;
+			when s6 =>  
+				if (Dar='0') then nextstate <= s7;
+				else nextstate <=h0;
+				end if;
+			when s7 =>  
+				if (Dar='0') then nextstate <= s8;
+				else nextstate <=h0;
+				end if;
+			when s8 =>  
+				if (Dar='0') then nextstate <= s9;
+				else nextstate <=h0;
+				end if;
+			when s9 =>  
+				if (Dar='0') then nextstate <= s0;
+				else nextstate <=h0;
+				end if;
+			when h0 => 
+				if (Dar='0') then nextstate <= s0;
+				else nextstate <= h1;
+				end if;
+			when h1 =>
+				if (Dar='0') then nextstate <= s0;
+				else nextstate <= h0;
+				end if;
+		end case;
+	end process;
+----------------------------	
+	process (realclock,rst)
+	begin
+		if (realclock 'event and realclock='1')then
+			if (rst='1') then
+				curstate <= s0;
+			elsif (realclock 'event and realclock='1') then
+				curstate <= nextstate;
+			end if;
+		end if;
+	end process;
+	
+	MUS <= '1' when curstate = s0 or curstate = s1 or curstate = s2 or curstate = s3 or curstate = s4 else '0';
+	HUS <= '1' when curstate = s5 or curstate = s6 or curstate = s7 or curstate = s8 else '0';
+	KUS <= '1' when curstate = s9 or curstate = h1 else '0';
+	MBT <= '1' when curstate = s5 or curstate = s6 or curstate = s7 or curstate = s8 or curstate = s9 else '0';
+	HBT <= '1' when curstate = s0 or curstate = s1 or curstate = s2 or curstate = s3 else '0';
+	KBT <= '1' when curstate = s4 or curstate = h1 else '0';
+end behavioral;

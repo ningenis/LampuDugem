@@ -1,0 +1,12 @@
+
+State Machine - |top_level_vhd|dugem:U2|PresentState
+Name PresentState.s8 PresentState.s7 PresentState.s6 PresentState.s5 PresentState.s4 PresentState.s3 PresentState.s2 PresentState.s1 PresentState.s0 
+PresentState.s0 0 0 0 0 0 0 0 0 0 
+PresentState.s1 0 0 0 0 0 0 0 1 1 
+PresentState.s2 0 0 0 0 0 0 1 0 1 
+PresentState.s3 0 0 0 0 0 1 0 0 1 
+PresentState.s4 0 0 0 0 1 0 0 0 1 
+PresentState.s5 0 0 0 1 0 0 0 0 1 
+PresentState.s6 0 0 1 0 0 0 0 0 1 
+PresentState.s7 0 1 0 0 0 0 0 0 1 
+PresentState.s8 1 0 0 0 0 0 0 0 1 
